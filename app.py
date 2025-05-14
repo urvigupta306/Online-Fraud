@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import joblib
 model = joblib.load("xgboost_model (2).pkl"
 st.title("🛡️ Online Transaction Fraud Detection")
 st.write("Fill in transaction details to detect if it's fraudulent.")
