@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 from xgboost import XGBClassifier
 xgb_model=XGBClassifier()
-joblib.dump(xbg_model, "xbg_model.pkl")
+joblib.dump(xgb_model, "xbg_model.pkl")
 model = joblib.load("xgb_model.pkl")
 st.title("🛡️ Online Transaction Fraud Detection")
 st.write("Fill in transaction details to detect if it's fraudulent.")
