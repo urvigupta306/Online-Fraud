@@ -13,6 +13,7 @@ import pandas as pd
 
 if st.button("Predict"):
     input_dict = {
+
 step = st.number_input("Step", min_value=0)
 amount = st.number_input("Transaction Amount", min_value=0.0)
 oldbalanceOrg = st.number_input("Old Balance (Origin)", min_value=0.0)
