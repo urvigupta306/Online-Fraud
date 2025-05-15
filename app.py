@@ -2,11 +2,6 @@ import streamlit as st
 import numpy as np
 import joblib
 
-model = joblib.load("xgb_model.pkl")
-import streamlit as st
-import numpy as np
-import joblib
-
 
 model = joblib.load("xgb_model.pkl")
 
